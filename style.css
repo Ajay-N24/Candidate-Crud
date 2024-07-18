@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 70px;
+  padding: 20px;
+}
+
+.btn {
+  padding: 10px 17px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.body-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 70px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+  margin: 24px 0;
+}
+
+.Experience {
+  margin: 24px 0;
+}
+
+.Experience input {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+}
+
+.heading {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.input-box input {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+}
+
+.Experience .row {
+  display: flex;
+  padding: 10px 0;
+  align-content: space-between;
+}
+
+.Experience .row div:nth-child(1) {
+  margin-right: 50px;
+}
+
+.btn-submit {
+  text-align: center;
+}
+
+.experience-sub {
+  margin: 24px 0;
+}
+
+#error-message {
+  margin-top: 18px;
+  color: red;
+}
